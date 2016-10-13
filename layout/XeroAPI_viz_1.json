@@ -1,0 +1,170 @@
+{
+    "name": "XeroAPI_viz_1",
+    "displayName": "Chart 1",
+    "dependencies": [
+        "XeroAPI"
+    ],
+    "transformName": "",
+    "options": {
+        "marker": "pivot",
+        "x": "",
+        "y": "",
+        "size": "",
+        "color": "",
+        "text": "",
+        "shape": "",
+        "facetcolumn": "",
+        "facetrow": "",
+        "barstyle": "stack",
+        "barsort": "off",
+        "label": "",
+        "colh": "",
+        "rowh": "",
+        "meas": "",
+        "scatterText": "",
+        "includeOutlier": "off",
+        "treatNAAsZero": "on",
+        "mapmode": "USA-states",
+        "columns": [
+            {
+                "name": "text",
+                "type": "character",
+                "escapedName": "text",
+                "_row": "text",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "favorited",
+                "type": "logical",
+                "escapedName": "favorited",
+                "_row": "favorited",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "favoriteCount",
+                "type": "numeric",
+                "escapedName": "favoriteCount",
+                "_row": "favoriteCount",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "replyToSN",
+                "type": "character",
+                "escapedName": "replyToSN",
+                "_row": "replyToSN",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "created",
+                "type": "POSIXct,POSIXt",
+                "escapedName": "created",
+                "_row": "created",
+                "isNumeric": false,
+                "isDate": true
+            },
+            {
+                "name": "truncated",
+                "type": "logical",
+                "escapedName": "truncated",
+                "_row": "truncated",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "replyToSID",
+                "type": "numeric",
+                "escapedName": "replyToSID",
+                "_row": "replyToSID",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "id",
+                "type": "numeric",
+                "escapedName": "id",
+                "_row": "id",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "replyToUID",
+                "type": "numeric",
+                "escapedName": "replyToUID",
+                "_row": "replyToUID",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "statusSource",
+                "type": "character",
+                "escapedName": "statusSource",
+                "_row": "statusSource",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "screenName",
+                "type": "character",
+                "escapedName": "screenName",
+                "_row": "screenName",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "retweetCount",
+                "type": "numeric",
+                "escapedName": "retweetCount",
+                "_row": "retweetCount",
+                "isNumeric": true,
+                "isDate": false
+            },
+            {
+                "name": "isRetweet",
+                "type": "logical",
+                "escapedName": "isRetweet",
+                "_row": "isRetweet",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "retweeted",
+                "type": "logical",
+                "escapedName": "retweeted",
+                "_row": "retweeted",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "longitude",
+                "type": "logical",
+                "escapedName": "longitude",
+                "_row": "longitude",
+                "isNumeric": false,
+                "isDate": false
+            },
+            {
+                "name": "latitude",
+                "type": "logical",
+                "escapedName": "latitude",
+                "_row": "latitude",
+                "isNumeric": false,
+                "isDate": false
+            }
+        ],
+        "data": null
+    },
+    "timestamp": "2016-10-13T05:18:01.141Z",
+    "updatedBy": "",
+    "snapshot": null,
+    "publicTitle": "",
+    "publicDescription": "",
+    "publicDataSourceURL": "",
+    "publicWithData": true,
+    "privateShare": false,
+    "sharedURL": "",
+    "publishSizeOption": null
+}
