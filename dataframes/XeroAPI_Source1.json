@@ -1,0 +1,50 @@
+{
+    "name": "XeroAPI_Source1",
+    "displayName": "Source",
+    "type": "SOURCE",
+    "dependencies": [],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "XeroAPI"
+    },
+    "props": {},
+    "transform": {
+        "type": "PLUGIN",
+        "props": {
+            "udf": "exploratory::getTwitter",
+            "escapedUDF": "exploratory::getTwitter",
+            "pluginName": "twitter",
+            "pluginDisplayName": "Twitter Search",
+            "params": [
+                {
+                    "name": "n",
+                    "type": "number",
+                    "value": "1000000"
+                },
+                {
+                    "name": "lang",
+                    "type": "text",
+                    "value": "en"
+                },
+                {
+                    "name": "lastNDays",
+                    "type": "number",
+                    "value": "10"
+                },
+                {
+                    "name": "searchString",
+                    "type": "text",
+                    "value": "XeroAPI"
+                },
+                {
+                    "name": "tokenFileId",
+                    "type": "oauthTokenFileId",
+                    "value": "6613508659a9"
+                }
+            ],
+            "timestamp": "2016-10-13T05:17:50.178Z"
+        },
+        "script": "exploratory::getTwitter(1000000,'en',10,'XeroAPI','6613508659a9')"
+    },
+    "timestamp": "2016-10-13T05:17:50.165Z"
+}
